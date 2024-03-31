@@ -1,2 +1,2 @@
 # portal-plus
-![Task Screen](/Screenshots/portal light theme.png)
+![Task Screen](/Screenshots/portal_light_theme.png)
