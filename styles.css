@@ -1,0 +1,128 @@
+* {
+  font-family: 'Cascadia Code' !important;
+}
+
+.mainDiv {
+  width: 500px;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #195ee6;
+  margin-left: 20px;
+  height: 33px;
+  border-radius: 8px;
+}
+
+.profile-button {
+  background-color: #195ee6;
+  border: 0px;
+  margin-left: 20px;
+}
+
+.logout-button {
+  background-color: #292e37;
+  border: 0px;
+  margin-left: 20px;
+}
+
+.navbar {
+  border: 1px !important;
+  border-color: white !important;
+  border-radius: 8px !important;
+}
+
+button a {
+  margin-left: 20px;
+}
+
+.navdiv {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.welcome-div {
+  justify-content: center;
+  border-radius: 8px;
+  width: 950px;
+  height: 320px;
+  background-image: url("https://lh3.googleusercontent.com/p/AF1QipPI9Q7QqiZt2RMotLBQgkrozQrsMEruOgLfwLaR=s680-w680-h510");
+  background-size: cover;
+  background-position: top;
+}
+
+.welcome-text {
+  font-family: "cascadia code";
+  color: white;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+html,
+body {
+  color: white !important;
+  text-decoration: none;
+  font-family: "Cascadia Code" !important;
+  background-color: #111317 !important;
+}
+
+#newTable {
+  border-collapse: collapse;
+  border: 1px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+#divImageHolder {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 10px;
+  /* border: 1px solid white !important; */
+  width: 120px;
+  border-radius: 100% !important;
+}
+
+a::after{
+  color: red;
+}
